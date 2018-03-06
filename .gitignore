@@ -1,3 +1,7 @@
 
 # idea
 .idea
+
+# jekyll
+.sass-cache
+.jekyll-metadata
