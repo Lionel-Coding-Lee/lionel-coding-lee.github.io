@@ -2,8 +2,9 @@
 layout: post
 title:  "Zookeeper的一致性与选举!"
 date:   2018-03-07 09:36:54 +0800
-categories: Zookeeper
+categories: jekyll update
 ---
+
 # 一致性算法Paxos
 提到一致性算法（协议），无法绕开Paxos——Paxos Wiki，这是过去十年分布式一致性协议上的主流算法
 
