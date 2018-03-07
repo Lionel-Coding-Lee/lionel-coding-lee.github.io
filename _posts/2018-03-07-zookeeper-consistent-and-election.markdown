@@ -2,7 +2,7 @@
 layout: post
 title:  "Zookeeper的一致性与选举!"
 date:   2018-03-07 09:36:54 +0800
-categories: jekyll update
+categories: zookeeper
 ---
 
 # 一致性算法Paxos
