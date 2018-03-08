@@ -1,3 +1,10 @@
+---
+layout: post
+title:  "kubernetes的决策分离"
+date:   2018-03-08 09:36:54 +0800
+categories: kubernetes
+---
+
 # 鱼与熊掌
 笼统了解了一下Kubernetes的架构设计，发现它的架构非常有意思，在一些方面实现了一定程度上得的“鱼与熊掌得兼”：
 1. 系统本身高复杂——对外接口简单清晰

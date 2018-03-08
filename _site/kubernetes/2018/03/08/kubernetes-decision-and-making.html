@@ -6,11 +6,11 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <title>Welcome to Jekyll!</title>
-  <meta name="description" content="You’ll find this post in your _posts directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different wa...">
+  <title>kubernetes的决策分离</title>
+  <meta name="description" content="鱼与熊掌 笼统了解了一下Kubernetes的架构设计，发现它的架构非常有意思，在一些方面实现了一定程度上得的“鱼与熊掌得兼”： 系统本身高复杂——对外接口简单清晰 高访问——没有性能瓶颈 高可用的特性——实现上的低成本">
 
   <link rel="stylesheet" href="/assets/main.css">
-  <link rel="canonical" href="http://localhost:4000/jekyll/update/2018/03/06/welcome-to-jekyll.html">
+  <link rel="canonical" href="http://localhost:4000/kubernetes/2018/03/08/kubernetes-decision-and-making.html">
   <link rel="alternate" type="application/rss+xml" title="Lionel PlayGround" href="/feed.xml">
   
   
@@ -70,29 +70,95 @@
         <article class="post" itemscope itemtype="http://schema.org/BlogPosting">
 
   <header class="post-header">
-    <h1 class="post-title" itemprop="name headline">Welcome to Jekyll!</h1>
+    <h1 class="post-title" itemprop="name headline">kubernetes的决策分离</h1>
     <p class="post-meta">
-      <time datetime="2018-03-06T09:36:54+08:00" itemprop="datePublished">
+      <time datetime="2018-03-08T09:36:54+08:00" itemprop="datePublished">
         
-        Mar 6, 2018
+        Mar 8, 2018
       </time>
       </p>
   </header>
 
   <div class="post-content" itemprop="articleBody">
-    <p>You’ll find this post in your <code class="highlighter-rouge">_posts</code> directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run <code class="highlighter-rouge">jekyll serve</code>, which launches a web server and auto-regenerates your site when a file is updated.</p>
+    <h1 id="鱼与熊掌">鱼与熊掌</h1>
+<p>笼统了解了一下Kubernetes的架构设计，发现它的架构非常有意思，在一些方面实现了一定程度上得的“鱼与熊掌得兼”：</p>
+<ol>
+  <li>系统本身高复杂——对外接口简单清晰</li>
+  <li>高访问——没有性能瓶颈</li>
+  <li>高可用的特性——实现上的低成本</li>
+</ol>
 
-<p>To add new posts, simply add a file in the <code class="highlighter-rouge">_posts</code> directory that follows the convention <code class="highlighter-rouge">YYYY-MM-DD-name-of-post.ext</code> and includes the necessary front matter. Take a look at the source for this post to get an idea about how it works.</p>
+<p>总之就是很牛逼了</p>
 
-<p>Jekyll also offers powerful support for code snippets:</p>
+<h2 id="kubernetes中枢部分的决策分离">Kubernetes中枢部分的“决”“策”分离</h2>
 
-<figure class="highlight"><pre><code class="language-ruby" data-lang="ruby"><span class="k">def</span> <span class="nf">print_hi</span><span class="p">(</span><span class="nb">name</span><span class="p">)</span>
-  <span class="nb">puts</span> <span class="s2">"Hi, </span><span class="si">#{</span><span class="nb">name</span><span class="si">}</span><span class="s2">"</span>
-<span class="k">end</span>
-<span class="n">print_hi</span><span class="p">(</span><span class="s1">'Tom'</span><span class="p">)</span>
-<span class="c1">#=&gt; prints 'Hi, Tom' to STDOUT.</span></code></pre></figure>
+<p>Kubernetes的组件可以大致分为俩部分：</p>
+<ol>
+  <li>负责整个集群的【中枢】，中枢的首长是【api server】</li>
+  <li>负责单个Node的【地方】，地方的行政长官是【kubelet】</li>
+</ol>
 
-<p>Check out the <a href="https://jekyllrb.com/docs/home">Jekyll docs</a> for more info on how to get the most out of Jekyll. File all bugs/feature requests at <a href="https://github.com/jekyll/jekyll">Jekyll’s GitHub repo</a>. If you have questions, you can ask them on <a href="https://talk.jekyllrb.com/">Jekyll Talk</a>.</p>
+<p>中枢部分又包括了很多组件，但对外，不论是使用者，还是对地方，都只呈现出一个api server</p>
+
+<p>所有用户对集群的指令，和所有kubelet的交互，都由api server完成</p>
+
+<p><strong>Kubernetes通过“决”与“策”的分离，减轻了api server的负担</strong></p>
+
+<p>api server负责【决】，所有引起集群状态变更的动作，都经过api server并由其负责落地（存储到etcd中），只有api server由读写etcd的权限</p>
+
+<p>专门的参谋团负责【策】，其中最主要的俩个就是：</p>
+<ol>
+  <li>controller manager</li>
+  <li>scheduler</li>
+</ol>
+
+<p>比如一个新的pod需要运行，api server会让scheduler负责考虑pod该运行在哪个Node上</p>
+
+<p>scheduler考虑清楚后把方案提交给api server，api server对方案做持久化</p>
+
+<p>对应Node上的kubelet去运行pod实例</p>
+
+<h2 id="kubernetes-client订阅机制">Kubernetes Client订阅机制</h2>
+<p>Kubernetes中组件的交互很频繁，但因为做了“决”“策”分离，负责具体事务的【中枢】职能官既不与etcd通信，也不与【地方】kubelet通信</p>
+
+<p>所以Kubernetes的网络通信模型最后变成了所有组件都要而且只要与api server通信，一定程度上降低了复杂度和全局的通信负担，api server也变相承担了全局“锁”的作用，维持通信上的先后顺序</p>
+
+<p>但是如此一来api server似乎负担会很重，宕机的可能性和成本都变大了</p>
+
+<p>所以Kubernetes使用了带hook的client</p>
+
+<blockquote>
+  <p>提供一个api server的client，这个client带一个hook，使用者在api server上注册订阅，有相关的状态变动时，api server通过hook发布到使用者（订阅者）</p>
+</blockquote>
+
+<blockquote>
+  <p>相当于【中枢】不维护飞鸽，不需要知道飞鸽的目的地，而是【地方】和【中枢】的职能官自己在【中枢】处放一只飞鸽</p>
+</blockquote>
+
+<p>这个设计带来的好处：</p>
+<ol>
+  <li>双向通信变成单向通信，api server不需要感知到各个组件，也不需要实现各个组件的client</li>
+  <li>减少握手成本和用于勘察状态的通信</li>
+  <li>最关键的一点，减轻了api server的通信成本</li>
+</ol>
+
+<h2 id="kubernetes高可用">Kubernetes高可用</h2>
+<p>软件系统的高可用，通常是通过冗余和高频的通信和保持状态一致</p>
+
+<h3 id="中枢部分">中枢部分</h3>
+<p>api server支持分布式</p>
+
+<p>其它职能组件原生不支持，但是在api server分布式的场景中，可以在每个api server的Node上
+运行一套职能组件的副本，职能组件的多副本间是主备关系</p>
+
+<p>但是只有api server知道哪个副本是主副本，因为副本之间没有通信</p>
+
+<p>api server上的状态变动会通知到所有副本，但它只会采用主副本提供回来的方案，主副本异常后，api server再从新选择一个主副本</p>
+
+<p>职能组件以此来实现了伪分布式的高可用</p>
+
+<h3 id="kubelet">kubelet</h3>
+<p>kubelet通常是以系统的service形式存在的，所以kubelet的高可用一般是有操作系统保证</p>
 
 
   </div>

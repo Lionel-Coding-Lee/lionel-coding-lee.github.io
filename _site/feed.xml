@@ -1,4 +1,82 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.7.3">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2018-03-07T17:52:06+08:00</updated><id>http://localhost:4000/</id><title type="html">Lionel PlayGround</title><subtitle>Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.</subtitle><entry><title type="html">Zookeeper的一致性与选举!</title><link href="http://localhost:4000/zookeeper/2018/03/07/zookeeper-consistent-and-election.html" rel="alternate" type="text/html" title="Zookeeper的一致性与选举!" /><published>2018-03-07T09:36:54+08:00</published><updated>2018-03-07T09:36:54+08:00</updated><id>http://localhost:4000/zookeeper/2018/03/07/zookeeper-consistent-and-election</id><content type="html" xml:base="http://localhost:4000/zookeeper/2018/03/07/zookeeper-consistent-and-election.html">&lt;h1 id=&quot;一致性算法paxos&quot;&gt;一致性算法Paxos&lt;/h1&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.6.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2018-03-08T15:48:04+08:00</updated><id>http://localhost:4000/</id><title type="html">Lionel PlayGround</title><subtitle>Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.</subtitle><entry><title type="html">kubernetes的决策分离</title><link href="http://localhost:4000/kubernetes/2018/03/08/kubernetes-decision-and-making.html" rel="alternate" type="text/html" title="kubernetes的决策分离" /><published>2018-03-08T09:36:54+08:00</published><updated>2018-03-08T09:36:54+08:00</updated><id>http://localhost:4000/kubernetes/2018/03/08/kubernetes-decision-and-making</id><content type="html" xml:base="http://localhost:4000/kubernetes/2018/03/08/kubernetes-decision-and-making.html">&lt;h1 id=&quot;鱼与熊掌&quot;&gt;鱼与熊掌&lt;/h1&gt;
+&lt;p&gt;笼统了解了一下Kubernetes的架构设计，发现它的架构非常有意思，在一些方面实现了一定程度上得的“鱼与熊掌得兼”：&lt;/p&gt;
+&lt;ol&gt;
+  &lt;li&gt;系统本身高复杂——对外接口简单清晰&lt;/li&gt;
+  &lt;li&gt;高访问——没有性能瓶颈&lt;/li&gt;
+  &lt;li&gt;高可用的特性——实现上的低成本&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;总之就是很牛逼了&lt;/p&gt;
+
+&lt;h2 id=&quot;kubernetes中枢部分的决策分离&quot;&gt;Kubernetes中枢部分的“决”“策”分离&lt;/h2&gt;
+
+&lt;p&gt;Kubernetes的组件可以大致分为俩部分：&lt;/p&gt;
+&lt;ol&gt;
+  &lt;li&gt;负责整个集群的【中枢】，中枢的首长是【api server】&lt;/li&gt;
+  &lt;li&gt;负责单个Node的【地方】，地方的行政长官是【kubelet】&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;中枢部分又包括了很多组件，但对外，不论是使用者，还是对地方，都只呈现出一个api server&lt;/p&gt;
+
+&lt;p&gt;所有用户对集群的指令，和所有kubelet的交互，都由api server完成&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Kubernetes通过“决”与“策”的分离，减轻了api server的负担&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;api server负责【决】，所有引起集群状态变更的动作，都经过api server并由其负责落地（存储到etcd中），只有api server由读写etcd的权限&lt;/p&gt;
+
+&lt;p&gt;专门的参谋团负责【策】，其中最主要的俩个就是：&lt;/p&gt;
+&lt;ol&gt;
+  &lt;li&gt;controller manager&lt;/li&gt;
+  &lt;li&gt;scheduler&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;比如一个新的pod需要运行，api server会让scheduler负责考虑pod该运行在哪个Node上&lt;/p&gt;
+
+&lt;p&gt;scheduler考虑清楚后把方案提交给api server，api server对方案做持久化&lt;/p&gt;
+
+&lt;p&gt;对应Node上的kubelet去运行pod实例&lt;/p&gt;
+
+&lt;h2 id=&quot;kubernetes-client订阅机制&quot;&gt;Kubernetes Client订阅机制&lt;/h2&gt;
+&lt;p&gt;Kubernetes中组件的交互很频繁，但因为做了“决”“策”分离，负责具体事务的【中枢】职能官既不与etcd通信，也不与【地方】kubelet通信&lt;/p&gt;
+
+&lt;p&gt;所以Kubernetes的网络通信模型最后变成了所有组件都要而且只要与api server通信，一定程度上降低了复杂度和全局的通信负担，api server也变相承担了全局“锁”的作用，维持通信上的先后顺序&lt;/p&gt;
+
+&lt;p&gt;但是如此一来api server似乎负担会很重，宕机的可能性和成本都变大了&lt;/p&gt;
+
+&lt;p&gt;所以Kubernetes使用了带hook的client&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;提供一个api server的client，这个client带一个hook，使用者在api server上注册订阅，有相关的状态变动时，api server通过hook发布到使用者（订阅者）&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;相当于【中枢】不维护飞鸽，不需要知道飞鸽的目的地，而是【地方】和【中枢】的职能官自己在【中枢】处放一只飞鸽&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;这个设计带来的好处：&lt;/p&gt;
+&lt;ol&gt;
+  &lt;li&gt;双向通信变成单向通信，api server不需要感知到各个组件，也不需要实现各个组件的client&lt;/li&gt;
+  &lt;li&gt;减少握手成本和用于勘察状态的通信&lt;/li&gt;
+  &lt;li&gt;最关键的一点，减轻了api server的通信成本&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h2 id=&quot;kubernetes高可用&quot;&gt;Kubernetes高可用&lt;/h2&gt;
+&lt;p&gt;软件系统的高可用，通常是通过冗余和高频的通信和保持状态一致&lt;/p&gt;
+
+&lt;h3 id=&quot;中枢部分&quot;&gt;中枢部分&lt;/h3&gt;
+&lt;p&gt;api server支持分布式&lt;/p&gt;
+
+&lt;p&gt;其它职能组件原生不支持，但是在api server分布式的场景中，可以在每个api server的Node上
+运行一套职能组件的副本，职能组件的多副本间是主备关系&lt;/p&gt;
+
+&lt;p&gt;但是只有api server知道哪个副本是主副本，因为副本之间没有通信&lt;/p&gt;
+
+&lt;p&gt;api server上的状态变动会通知到所有副本，但它只会采用主副本提供回来的方案，主副本异常后，api server再从新选择一个主副本&lt;/p&gt;
+
+&lt;p&gt;职能组件以此来实现了伪分布式的高可用&lt;/p&gt;
+
+&lt;h3 id=&quot;kubelet&quot;&gt;kubelet&lt;/h3&gt;
+&lt;p&gt;kubelet通常是以系统的service形式存在的，所以kubelet的高可用一般是有操作系统保证&lt;/p&gt;</content><author><name></name></author><summary type="html">鱼与熊掌 笼统了解了一下Kubernetes的架构设计，发现它的架构非常有意思，在一些方面实现了一定程度上得的“鱼与熊掌得兼”： 系统本身高复杂——对外接口简单清晰 高访问——没有性能瓶颈 高可用的特性——实现上的低成本</summary></entry><entry><title type="html">Zookeeper的一致性与选举!</title><link href="http://localhost:4000/zookeeper/2018/03/07/zookeeper-consistent-and-election.html" rel="alternate" type="text/html" title="Zookeeper的一致性与选举!" /><published>2018-03-07T09:36:54+08:00</published><updated>2018-03-07T09:36:54+08:00</updated><id>http://localhost:4000/zookeeper/2018/03/07/zookeeper-consistent-and-election</id><content type="html" xml:base="http://localhost:4000/zookeeper/2018/03/07/zookeeper-consistent-and-election.html">&lt;h1 id=&quot;一致性算法paxos&quot;&gt;一致性算法Paxos&lt;/h1&gt;
 &lt;p&gt;提到一致性算法（协议），无法绕开Paxos——Paxos Wiki，这是过去十年分布式一致性协议上的主流算法&lt;/p&gt;
 
 &lt;p&gt;首先将议员的角色分为proposers，acceptors，和learners（允许身兼数职）。proposers提出提案，提案信息包括提案编号和提议的value；acceptor收到提案后可以接受（accept）提案，若提案获得多数acceptors的接受，则称该提案被批准（chosen）；learners只能“学习”被批准的提案。划分角色后，就可以更精确的定义问题：&lt;/p&gt;
