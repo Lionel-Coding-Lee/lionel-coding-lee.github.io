@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.6.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2018-03-26T15:02:47+08:00</updated><id>http://localhost:4000/</id><title type="html">Lionel PlayGround</title><subtitle>Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.</subtitle><entry><title type="html">清明时节雨纷纷，杏花村啊杏花村</title><link href="http://localhost:4000/playplan/2018/03/26/tomb-sweeping-day.html" rel="alternate" type="text/html" title="清明时节雨纷纷，杏花村啊杏花村" /><published>2018-03-26T09:36:54+08:00</published><updated>2018-03-26T09:36:54+08:00</updated><id>http://localhost:4000/playplan/2018/03/26/tomb-sweeping-day</id><content type="html" xml:base="http://localhost:4000/playplan/2018/03/26/tomb-sweeping-day.html">&lt;h1 id=&quot;清明时节雨纷纷杏花村啊杏花村&quot;&gt;清明时节雨纷纷，杏花村啊杏花村&lt;/h1&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.6.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2018-03-26T19:33:48+08:00</updated><id>http://localhost:4000/</id><title type="html">Lionel PlayGround</title><subtitle>Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.</subtitle><entry><title type="html">清明时节雨纷纷，杏花村啊杏花村</title><link href="http://localhost:4000/playplan/2018/03/26/tomb-sweeping-day.html" rel="alternate" type="text/html" title="清明时节雨纷纷，杏花村啊杏花村" /><published>2018-03-26T09:36:54+08:00</published><updated>2018-03-26T09:36:54+08:00</updated><id>http://localhost:4000/playplan/2018/03/26/tomb-sweeping-day</id><content type="html" xml:base="http://localhost:4000/playplan/2018/03/26/tomb-sweeping-day.html">&lt;h1 id=&quot;清明时节雨纷纷杏花村啊杏花村&quot;&gt;清明时节雨纷纷，杏花村啊杏花村&lt;/h1&gt;
 
 &lt;h2 id=&quot;交通&quot;&gt;交通&lt;/h2&gt;
 
@@ -73,14 +73,83 @@
 &lt;/table&gt;
 
 &lt;hr /&gt;
-&lt;p&gt;&lt;strong&gt;&lt;em&gt;云南的路况较为复杂，没有老司机就不考虑租车自驾了，应该是杭州——丽江——大理——昆明——成都——杭州的路线&lt;/em&gt;&lt;/strong&gt;
-—-&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;em&gt;云南的路况较为复杂，没有老司机就不考虑租车自驾了，应该是杭州——丽江——大理——昆明——成都——杭州的路线&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;
 
-&lt;h2 id=&quot;景点&quot;&gt;景点&lt;/h2&gt;
+&lt;h2 id=&quot;路线&quot;&gt;路线&lt;/h2&gt;
 
-&lt;h2 id=&quot;住宿&quot;&gt;住宿&lt;/h2&gt;
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th style=&quot;text-align: center&quot;&gt;日期&lt;/th&gt;
+      &lt;th style=&quot;text-align: left&quot;&gt;周几&lt;/th&gt;
+      &lt;th style=&quot;text-align: left&quot;&gt;行程&lt;/th&gt;
+      &lt;th style=&quot;text-align: center&quot;&gt;备注&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;4.1&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;周日&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;上午飞机，下午到丽江，晚上在丽江古城玩一玩&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt; &lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;4.2&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;周一&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;上午大巴到香格里拉，晚上在香格里拉县城玩&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt; &lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;4.3&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;周二&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;普达措国家公园，下午3点会返回香格里拉县城，运气好可以晚上返回丽江&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt; &lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;4.4&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;周三&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;运气不好下午到达丽江&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt; &lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;4.5&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;周四&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;玉龙雪山，晚上去大理&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt; &lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;4.6&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;周五&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;白天在洱海附近逛逛，晚上去昆明，火车过夜&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt; &lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;4.7&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;周六&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;昆明飞回杭州&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt; &lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
 
-&lt;h2 id=&quot;吃&quot;&gt;吃&lt;/h2&gt;</content><author><name></name></author><summary type="html">清明时节雨纷纷，杏花村啊杏花村</summary></entry><entry><title type="html">数据产品开发笔记</title><link href="http://localhost:4000/notebook/2018/03/26/head-first-notebook.html" rel="alternate" type="text/html" title="数据产品开发笔记" /><published>2018-03-26T09:36:54+08:00</published><updated>2018-03-26T09:36:54+08:00</updated><id>http://localhost:4000/notebook/2018/03/26/head-first-notebook</id><content type="html" xml:base="http://localhost:4000/notebook/2018/03/26/head-first-notebook.html">&lt;h1 id=&quot;开发笔记&quot;&gt;开发笔记&lt;/h1&gt;
+&lt;blockquote&gt;
+  &lt;p&gt;需要订4.1，（+4.3），4.4在丽江的住宿&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;4.2（+4.3）在香格里拉的住宿&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;4.5在大理的住宿&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h3 id=&quot;香格里拉&quot;&gt;香格里拉&lt;/h3&gt;
+
+&lt;h3 id=&quot;大理&quot;&gt;大理&lt;/h3&gt;
+&lt;p&gt;大理古城&lt;/p&gt;
+
+&lt;h3 id=&quot;昆明&quot;&gt;昆明&lt;/h3&gt;</content><author><name></name></author><summary type="html">清明时节雨纷纷，杏花村啊杏花村</summary></entry><entry><title type="html">数据产品开发笔记</title><link href="http://localhost:4000/notebook/2018/03/26/head-first-notebook.html" rel="alternate" type="text/html" title="数据产品开发笔记" /><published>2018-03-26T09:36:54+08:00</published><updated>2018-03-26T09:36:54+08:00</updated><id>http://localhost:4000/notebook/2018/03/26/head-first-notebook</id><content type="html" xml:base="http://localhost:4000/notebook/2018/03/26/head-first-notebook.html">&lt;h1 id=&quot;开发笔记&quot;&gt;开发笔记&lt;/h1&gt;
 
 &lt;h2 id=&quot;完全异步&quot;&gt;完全异步&lt;/h2&gt;
 &lt;p&gt;Java Web ——&amp;gt; Quartz ——&amp;gt; Engine&lt;/p&gt;
