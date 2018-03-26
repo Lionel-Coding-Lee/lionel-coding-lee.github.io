@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.6.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2018-03-26T19:33:48+08:00</updated><id>http://localhost:4000/</id><title type="html">Lionel PlayGround</title><subtitle>Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.</subtitle><entry><title type="html">清明时节雨纷纷，杏花村啊杏花村</title><link href="http://localhost:4000/playplan/2018/03/26/tomb-sweeping-day.html" rel="alternate" type="text/html" title="清明时节雨纷纷，杏花村啊杏花村" /><published>2018-03-26T09:36:54+08:00</published><updated>2018-03-26T09:36:54+08:00</updated><id>http://localhost:4000/playplan/2018/03/26/tomb-sweeping-day</id><content type="html" xml:base="http://localhost:4000/playplan/2018/03/26/tomb-sweeping-day.html">&lt;h1 id=&quot;清明时节雨纷纷杏花村啊杏花村&quot;&gt;清明时节雨纷纷，杏花村啊杏花村&lt;/h1&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.6.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2018-03-26T19:44:22+08:00</updated><id>http://localhost:4000/</id><title type="html">Lionel PlayGround</title><subtitle>Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.</subtitle><entry><title type="html">清明时节雨纷纷，杏花村啊杏花村</title><link href="http://localhost:4000/playplan/2018/03/26/tomb-sweeping-day.html" rel="alternate" type="text/html" title="清明时节雨纷纷，杏花村啊杏花村" /><published>2018-03-26T09:36:54+08:00</published><updated>2018-03-26T09:36:54+08:00</updated><id>http://localhost:4000/playplan/2018/03/26/tomb-sweeping-day</id><content type="html" xml:base="http://localhost:4000/playplan/2018/03/26/tomb-sweeping-day.html">&lt;h1 id=&quot;清明时节雨纷纷杏花村啊杏花村&quot;&gt;清明时节雨纷纷，杏花村啊杏花村&lt;/h1&gt;
 
 &lt;h2 id=&quot;交通&quot;&gt;交通&lt;/h2&gt;
 
@@ -144,12 +144,19 @@
   &lt;p&gt;4.5在大理的住宿&lt;/p&gt;
 &lt;/blockquote&gt;
 
-&lt;h3 id=&quot;香格里拉&quot;&gt;香格里拉&lt;/h3&gt;
+&lt;h2 id=&quot;住宿&quot;&gt;住宿&lt;/h2&gt;
 
-&lt;h3 id=&quot;大理&quot;&gt;大理&lt;/h3&gt;
-&lt;p&gt;大理古城&lt;/p&gt;
+&lt;blockquote&gt;
+  &lt;p&gt;to be continued&lt;/p&gt;
+&lt;/blockquote&gt;
 
-&lt;h3 id=&quot;昆明&quot;&gt;昆明&lt;/h3&gt;</content><author><name></name></author><summary type="html">清明时节雨纷纷，杏花村啊杏花村</summary></entry><entry><title type="html">数据产品开发笔记</title><link href="http://localhost:4000/notebook/2018/03/26/head-first-notebook.html" rel="alternate" type="text/html" title="数据产品开发笔记" /><published>2018-03-26T09:36:54+08:00</published><updated>2018-03-26T09:36:54+08:00</updated><id>http://localhost:4000/notebook/2018/03/26/head-first-notebook</id><content type="html" xml:base="http://localhost:4000/notebook/2018/03/26/head-first-notebook.html">&lt;h1 id=&quot;开发笔记&quot;&gt;开发笔记&lt;/h1&gt;
+&lt;h2 id=&quot;景点资料&quot;&gt;景点资料&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;http://www.mafengwo.cn/mdd/cityroute/10186_272.html&quot;&gt;丽江&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://www.mafengwo.cn/mdd/cityroute/10482_322.html&quot;&gt;香格里拉&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://www.mafengwo.cn/mdd/cityroute/10487_308.html&quot;&gt;大理&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</content><author><name></name></author><summary type="html">清明时节雨纷纷，杏花村啊杏花村</summary></entry><entry><title type="html">数据产品开发笔记</title><link href="http://localhost:4000/notebook/2018/03/26/head-first-notebook.html" rel="alternate" type="text/html" title="数据产品开发笔记" /><published>2018-03-26T09:36:54+08:00</published><updated>2018-03-26T09:36:54+08:00</updated><id>http://localhost:4000/notebook/2018/03/26/head-first-notebook</id><content type="html" xml:base="http://localhost:4000/notebook/2018/03/26/head-first-notebook.html">&lt;h1 id=&quot;开发笔记&quot;&gt;开发笔记&lt;/h1&gt;
 
 &lt;h2 id=&quot;完全异步&quot;&gt;完全异步&lt;/h2&gt;
 &lt;p&gt;Java Web ——&amp;gt; Quartz ——&amp;gt; Engine&lt;/p&gt;

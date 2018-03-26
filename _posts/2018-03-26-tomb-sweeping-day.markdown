@@ -43,11 +43,12 @@ categories: playplan
 >4.5在大理的住宿
 
 
-### 香格里拉
+## 住宿
 
+>to be continued
 
-### 大理
-大理古城
+## 景点资料
 
-### 昆明
-
+- [丽江](http://www.mafengwo.cn/mdd/cityroute/10186_272.html)
+- [香格里拉](http://www.mafengwo.cn/mdd/cityroute/10482_322.html)
+- [大理](http://www.mafengwo.cn/mdd/cityroute/10487_308.html)
