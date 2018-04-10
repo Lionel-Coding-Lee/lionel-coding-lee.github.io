@@ -1,4 +1,31 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.6.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2018-03-26T19:44:22+08:00</updated><id>http://localhost:4000/</id><title type="html">Lionel PlayGround</title><subtitle>Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.</subtitle><entry><title type="html">清明时节雨纷纷，杏花村啊杏花村</title><link href="http://localhost:4000/playplan/2018/03/26/tomb-sweeping-day.html" rel="alternate" type="text/html" title="清明时节雨纷纷，杏花村啊杏花村" /><published>2018-03-26T09:36:54+08:00</published><updated>2018-03-26T09:36:54+08:00</updated><id>http://localhost:4000/playplan/2018/03/26/tomb-sweeping-day</id><content type="html" xml:base="http://localhost:4000/playplan/2018/03/26/tomb-sweeping-day.html">&lt;h1 id=&quot;清明时节雨纷纷杏花村啊杏花村&quot;&gt;清明时节雨纷纷，杏花村啊杏花村&lt;/h1&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.6.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2018-04-10T15:16:35+08:00</updated><id>http://localhost:4000/</id><title type="html">Lionel PlayGround</title><subtitle>Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.</subtitle><entry><title type="html">读《淘宝技术这十年》</title><link href="http://localhost:4000/notebook/2018/04/10/read-tabao-technology-10.html" rel="alternate" type="text/html" title="读《淘宝技术这十年》" /><published>2018-04-10T09:36:54+08:00</published><updated>2018-04-10T09:36:54+08:00</updated><id>http://localhost:4000/notebook/2018/04/10/read-tabao-technology-10</id><content type="html" xml:base="http://localhost:4000/notebook/2018/04/10/read-tabao-technology-10.html">&lt;blockquote&gt;
+  &lt;p&gt;上午手上闲适，翻开了《淘宝技术这十年》读了读，以这样的视角去了解淘宝的发展，感觉非常微妙&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;读这本书的时候，我自己的视角更多的是一位技术人员，去读另一位技术人员对淘宝技术的记录，再次记录一下读后感：&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;
+    &lt;p&gt;最大的感受是——&lt;strong&gt;技术服务于业务&lt;/strong&gt;，换言之，学以致用
+其实从毕业以来，我一直很在意寻找那种在一定时间内“一劳永逸”的架构，现在想想既然架构是随着使用不停演化的，那这种也不必过于在意了&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;作为一名非专业技术人员，如何对待技术——&lt;strong&gt;尊重技术&lt;/strong&gt;，但也不要将技术供之高阁&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;技术或者说开发最大的成功还是能够&lt;strong&gt;快速响应&lt;/strong&gt;，快速完成&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;技术没有地位之高下，技术人员也没有，&lt;strong&gt;能够解决问题，技术人员就应该得到尊重&lt;/strong&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;读一本老技术前辈写的书，或多或少对这份工作有了更清晰的认识&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;积土成山，积水成渊，想在技术这条路继续走下去，没有捷径&lt;/p&gt;
+&lt;/blockquote&gt;</content><author><name></name></author><summary type="html">上午手上闲适，翻开了《淘宝技术这十年》读了读，以这样的视角去了解淘宝的发展，感觉非常微妙</summary></entry><entry><title type="html">清明时节雨纷纷，杏花村啊杏花村</title><link href="http://localhost:4000/playplan/2018/03/26/tomb-sweeping-day.html" rel="alternate" type="text/html" title="清明时节雨纷纷，杏花村啊杏花村" /><published>2018-03-26T09:36:54+08:00</published><updated>2018-03-26T09:36:54+08:00</updated><id>http://localhost:4000/playplan/2018/03/26/tomb-sweeping-day</id><content type="html" xml:base="http://localhost:4000/playplan/2018/03/26/tomb-sweeping-day.html">&lt;h1 id=&quot;清明时节雨纷纷杏花村啊杏花村&quot;&gt;清明时节雨纷纷，杏花村啊杏花村&lt;/h1&gt;
 
 &lt;h2 id=&quot;交通&quot;&gt;交通&lt;/h2&gt;
 
@@ -149,6 +176,30 @@
 &lt;blockquote&gt;
   &lt;p&gt;to be continued&lt;/p&gt;
 &lt;/blockquote&gt;
+
+&lt;h2 id=&quot;游感&quot;&gt;游感&lt;/h2&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;最后的行程和计划差别不大，区别主要是从香格里拉直接到了大理双廊&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;原本四人团队，最后只剩下一位男同事和我，我们俩对这次的旅行都是很满意的（大概，除了两次户外比较惊险，没有艳遇之外，这一周的天气交通都很顺利，运气很好&lt;/p&gt;
+
+&lt;p&gt;之前也去广西呆过20天左右，不过那是去支教而且有8人，像这次单纯的长距离长时间的游玩，还是第一次，所以仅仅从完成度来讲，我们俩都是很满意的。
+而且对于久坐办公室的人，也是一次难得的户外。&lt;/p&gt;
+
+&lt;p&gt;对计划而言，确实是很好的完成了，实际到了云南之后也发现有些点可以改进：&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;时间——一个旅行地点最重要的就是时间，这个要提前做好调查，比如香格里拉最佳时间是5~6月（花期），大理是4月中旬（民族节日）&lt;/li&gt;
+  &lt;li&gt;旅行地点——旅行地点不需要贪多，三天或者五天，能够把一个地方玩好就很好&lt;/li&gt;
+  &lt;li&gt;交通——相比于住宿和饮食，交通被我们忽略了，计划是飞机+火车，实际全是坐大巴，而且交通占了不少时间，如果能够自驾，是最好的&lt;/li&gt;
+  &lt;li&gt;人数——四人其实是比较合适的，不仅刚刚充分利用租一辆车，住宿也可以两个标准间，而且最关键的是，路上聊天会不那么尬，两个人完全相处一个周，不是情侣多少还是会尬&lt;/li&gt;
+  &lt;li&gt;背包——背包在绝大多数情况下都是一个很好的道具，最好不要离身，在虎跳峡我直接只拿了相机就下去了，结果上来的时候发现相机挂在脖子上很难爬梯子（很危险），而且随时随地都有想喝一口的欲望&lt;/li&gt;
+  &lt;li&gt;对坏情况的预期——出去玩，成本最大的一点就是没能catch住异常，期望之外的异常往往会破坏一天，两天甚至一周的安排，经历了在香格里拉租自行车车胎漏气的事情后，之后在大理开口先问老板“车在路上坏了怎么办”——出去旅行，下雨怎么办，没赶上车怎么办，手机没电怎么办，这些问题才是这次旅行的基本保证&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;&lt;strong&gt;总结看来，改进之处还是在出发前的计划阶段&lt;/strong&gt;&lt;/p&gt;
 
 &lt;h2 id=&quot;景点资料&quot;&gt;景点资料&lt;/h2&gt;
 
