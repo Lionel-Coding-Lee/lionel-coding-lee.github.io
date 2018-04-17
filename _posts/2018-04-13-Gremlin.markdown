@@ -1,0 +1,15 @@
+---
+layout: post
+title:  "gremlin学习笔记"
+date:   2018-04-13 09:36:54 +0800
+categories: database
+---
+
+> 待填坑
+
+# What is Gremlin
+
+# 语法特征
+
+# 与Titan如何整合
+

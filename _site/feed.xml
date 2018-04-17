@@ -1,4 +1,22 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.6.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2018-04-10T15:16:35+08:00</updated><id>http://localhost:4000/</id><title type="html">Lionel PlayGround</title><subtitle>Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.</subtitle><entry><title type="html">读《淘宝技术这十年》</title><link href="http://localhost:4000/notebook/2018/04/10/read-tabao-technology-10.html" rel="alternate" type="text/html" title="读《淘宝技术这十年》" /><published>2018-04-10T09:36:54+08:00</published><updated>2018-04-10T09:36:54+08:00</updated><id>http://localhost:4000/notebook/2018/04/10/read-tabao-technology-10</id><content type="html" xml:base="http://localhost:4000/notebook/2018/04/10/read-tabao-technology-10.html">&lt;blockquote&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.6.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2018-04-17T09:24:36+08:00</updated><id>http://localhost:4000/</id><title type="html">Lionel PlayGround</title><subtitle>Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.</subtitle><entry><title type="html">劳动人民最光荣之武功山徒步</title><link href="http://localhost:4000/playplan/2018/04/16/labour-day-wugong-mountain.html" rel="alternate" type="text/html" title="劳动人民最光荣之武功山徒步" /><published>2018-04-16T09:36:54+08:00</published><updated>2018-04-16T09:36:54+08:00</updated><id>http://localhost:4000/playplan/2018/04/16/labour-day-wugong-mountain</id><content type="html" xml:base="http://localhost:4000/playplan/2018/04/16/labour-day-wugong-mountain.html"></content><author><name></name></author><summary type="html"></summary></entry><entry><title type="html">gremlin学习笔记</title><link href="http://localhost:4000/database/2018/04/13/Gremlin.html" rel="alternate" type="text/html" title="gremlin学习笔记" /><published>2018-04-13T09:36:54+08:00</published><updated>2018-04-13T09:36:54+08:00</updated><id>http://localhost:4000/database/2018/04/13/Gremlin</id><content type="html" xml:base="http://localhost:4000/database/2018/04/13/Gremlin.html">&lt;blockquote&gt;
+  &lt;p&gt;待填坑&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h1 id=&quot;what-is-gremlin&quot;&gt;What is Gremlin&lt;/h1&gt;
+
+&lt;h1 id=&quot;语法特征&quot;&gt;语法特征&lt;/h1&gt;
+
+&lt;h1 id=&quot;与titan如何整合&quot;&gt;与Titan如何整合&lt;/h1&gt;</content><author><name></name></author><summary type="html">待填坑</summary></entry><entry><title type="html">几种主流的一致性协议!</title><link href="http://localhost:4000/zookeeper/2018/04/13/Coherence-protocol.html" rel="alternate" type="text/html" title="几种主流的一致性协议!" /><published>2018-04-13T09:36:54+08:00</published><updated>2018-04-13T09:36:54+08:00</updated><id>http://localhost:4000/zookeeper/2018/04/13/Coherence-protocol</id><content type="html" xml:base="http://localhost:4000/zookeeper/2018/04/13/Coherence-protocol.html">&lt;blockquote&gt;
+  &lt;p&gt;待填坑&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h1 id=&quot;paxos&quot;&gt;Paxos&lt;/h1&gt;
+
+&lt;h1 id=&quot;zoolab&quot;&gt;Zoolab&lt;/h1&gt;
+
+&lt;h1 id=&quot;gossip&quot;&gt;Gossip&lt;/h1&gt;
+
+&lt;h1 id=&quot;totem&quot;&gt;Totem&lt;/h1&gt;</content><author><name></name></author><summary type="html">待填坑</summary></entry><entry><title type="html">读《淘宝技术这十年》</title><link href="http://localhost:4000/notebook/2018/04/10/read-tabao-technology-10.html" rel="alternate" type="text/html" title="读《淘宝技术这十年》" /><published>2018-04-10T09:36:54+08:00</published><updated>2018-04-10T09:36:54+08:00</updated><id>http://localhost:4000/notebook/2018/04/10/read-tabao-technology-10</id><content type="html" xml:base="http://localhost:4000/notebook/2018/04/10/read-tabao-technology-10.html">&lt;blockquote&gt;
   &lt;p&gt;上午手上闲适，翻开了《淘宝技术这十年》读了读，以这样的视角去了解淘宝的发展，感觉非常微妙&lt;/p&gt;
 &lt;/blockquote&gt;
 
