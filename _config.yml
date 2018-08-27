@@ -30,7 +30,7 @@ theme:  minima
 #theme: jekyll-theme-architect
 plugins:
   - jekyll-feed
-#  - github-pages
+  - github-pages
 #source:      ./
 #destination: ./
 
