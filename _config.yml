@@ -17,7 +17,7 @@ title: Lionel PlayGround
 email: lionel.coding.lee@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
   welcome to my personal blog site ~
-baseurl: "/_site/" # the subpath of your site, e.g. /blog
+baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: Lioooonel
 github_username:  Lionel-Coding-Lee

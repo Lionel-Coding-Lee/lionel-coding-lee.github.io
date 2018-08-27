@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.6.2">Jekyll</generator><link href="http://localhost:4000/_site/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/_site/" rel="alternate" type="text/html" /><updated>2018-08-27T16:53:20+08:00</updated><id>http://localhost:4000/_site/</id><title type="html">Lionel PlayGround</title><subtitle>welcome to my personal blog site ~</subtitle><entry><title type="html">TCP/IP详解卷一阅读笔记</title><link href="http://localhost:4000/_site/tcpip/2018/08/27/read-tcpip-volume-one.html" rel="alternate" type="text/html" title="TCP/IP详解卷一阅读笔记" /><published>2018-08-27T09:36:54+08:00</published><updated>2018-08-27T09:36:54+08:00</updated><id>http://localhost:4000/_site/tcpip/2018/08/27/read-tcpip-volume-one</id><content type="html" xml:base="http://localhost:4000/_site/tcpip/2018/08/27/read-tcpip-volume-one.html">&lt;h1 id=&quot;tcpip详解卷一阅读笔记&quot;&gt;TCP/IP详解卷一阅读笔记&lt;/h1&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.6.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2018-08-27T17:02:12+08:00</updated><id>http://localhost:4000/</id><title type="html">Lionel PlayGround</title><subtitle>welcome to my personal blog site ~</subtitle><entry><title type="html">TCP/IP详解卷一阅读笔记</title><link href="http://localhost:4000/tcpip/2018/08/27/read-tcpip-volume-one.html" rel="alternate" type="text/html" title="TCP/IP详解卷一阅读笔记" /><published>2018-08-27T09:36:54+08:00</published><updated>2018-08-27T09:36:54+08:00</updated><id>http://localhost:4000/tcpip/2018/08/27/read-tcpip-volume-one</id><content type="html" xml:base="http://localhost:4000/tcpip/2018/08/27/read-tcpip-volume-one.html">&lt;h1 id=&quot;tcpip详解卷一阅读笔记&quot;&gt;TCP/IP详解卷一阅读笔记&lt;/h1&gt;
 
 &lt;blockquote&gt;
   &lt;p&gt;原想深入了解一下tcp/ip的原理，于是翻开了《TCP/IP详解 卷一：协议》，陆陆续续粗糙地看了两个月终于看完了，发现基础的原理还是理解不到位，但是仅仅对TCP/IP协议簇有一定的了解也是很大的收获了&lt;/p&gt;
@@ -70,7 +70,7 @@
   &lt;li&gt;telnet&lt;/li&gt;
   &lt;li&gt;rlogin&lt;/li&gt;
   &lt;li&gt;nfs&lt;/li&gt;
-&lt;/ul&gt;</content><author><name></name></author><summary type="html">TCP/IP详解卷一阅读笔记</summary></entry><entry><title type="html">如何进行一次活动摄影</title><link href="http://localhost:4000/_site/skills/2018/08/27/how-to-photo-an-activity.html" rel="alternate" type="text/html" title="如何进行一次活动摄影" /><published>2018-08-27T09:36:54+08:00</published><updated>2018-08-27T09:36:54+08:00</updated><id>http://localhost:4000/_site/skills/2018/08/27/how-to-photo-an-activity</id><content type="html" xml:base="http://localhost:4000/_site/skills/2018/08/27/how-to-photo-an-activity.html">&lt;h1 id=&quot;如何进行一次活动摄影&quot;&gt;如何进行一次活动摄影&lt;/h1&gt;
+&lt;/ul&gt;</content><author><name></name></author><summary type="html">TCP/IP详解卷一阅读笔记</summary></entry><entry><title type="html">如何进行一次活动摄影</title><link href="http://localhost:4000/skills/2018/08/27/how-to-photo-an-activity.html" rel="alternate" type="text/html" title="如何进行一次活动摄影" /><published>2018-08-27T09:36:54+08:00</published><updated>2018-08-27T09:36:54+08:00</updated><id>http://localhost:4000/skills/2018/08/27/how-to-photo-an-activity</id><content type="html" xml:base="http://localhost:4000/skills/2018/08/27/how-to-photo-an-activity.html">&lt;h1 id=&quot;如何进行一次活动摄影&quot;&gt;如何进行一次活动摄影&lt;/h1&gt;
 
 &lt;blockquote&gt;
   &lt;p&gt;本文沿着活动的时序线对摄影的注意点进行介绍&lt;/p&gt;
@@ -135,10 +135,10 @@
   &lt;li&gt;内容环节特写&lt;/li&gt;
   &lt;li&gt;优秀观众特写&lt;/li&gt;
   &lt;li&gt;合影&lt;/li&gt;
-&lt;/ul&gt;</content><author><name></name></author><summary type="html">如何进行一次活动摄影</summary></entry><entry><title type="html">劳动人民最光荣之东极岛</title><link href="http://localhost:4000/_site/playplan/2018/04/16/labour-day-east-land.html" rel="alternate" type="text/html" title="劳动人民最光荣之东极岛" /><published>2018-04-16T09:36:54+08:00</published><updated>2018-04-16T09:36:54+08:00</updated><id>http://localhost:4000/_site/playplan/2018/04/16/labour-day-east-land</id><content type="html" xml:base="http://localhost:4000/_site/playplan/2018/04/16/labour-day-east-land.html">&lt;blockquote&gt;
+&lt;/ul&gt;</content><author><name></name></author><summary type="html">如何进行一次活动摄影</summary></entry><entry><title type="html">劳动人民最光荣之东极岛</title><link href="http://localhost:4000/playplan/2018/04/16/labour-day-east-land.html" rel="alternate" type="text/html" title="劳动人民最光荣之东极岛" /><published>2018-04-16T09:36:54+08:00</published><updated>2018-04-16T09:36:54+08:00</updated><id>http://localhost:4000/playplan/2018/04/16/labour-day-east-land</id><content type="html" xml:base="http://localhost:4000/playplan/2018/04/16/labour-day-east-land.html">&lt;blockquote&gt;
   &lt;p&gt;原本计划去武功山徒步，但是没有买到往返火车票，只剩下第一天和第三天在大巴上的一个团，作罢
 去东极岛！时间利用率比较高&lt;/p&gt;
-&lt;/blockquote&gt;</content><author><name></name></author><summary type="html">原本计划去武功山徒步，但是没有买到往返火车票，只剩下第一天和第三天在大巴上的一个团，作罢 去东极岛！时间利用率比较高</summary></entry><entry><title type="html">gremlin学习笔记</title><link href="http://localhost:4000/_site/database/2018/04/13/Gremlin.html" rel="alternate" type="text/html" title="gremlin学习笔记" /><published>2018-04-13T09:36:54+08:00</published><updated>2018-04-13T09:36:54+08:00</updated><id>http://localhost:4000/_site/database/2018/04/13/Gremlin</id><content type="html" xml:base="http://localhost:4000/_site/database/2018/04/13/Gremlin.html">&lt;blockquote&gt;
+&lt;/blockquote&gt;</content><author><name></name></author><summary type="html">原本计划去武功山徒步，但是没有买到往返火车票，只剩下第一天和第三天在大巴上的一个团，作罢 去东极岛！时间利用率比较高</summary></entry><entry><title type="html">gremlin学习笔记</title><link href="http://localhost:4000/database/2018/04/13/Gremlin.html" rel="alternate" type="text/html" title="gremlin学习笔记" /><published>2018-04-13T09:36:54+08:00</published><updated>2018-04-13T09:36:54+08:00</updated><id>http://localhost:4000/database/2018/04/13/Gremlin</id><content type="html" xml:base="http://localhost:4000/database/2018/04/13/Gremlin.html">&lt;blockquote&gt;
   &lt;p&gt;待填坑&lt;/p&gt;
 &lt;/blockquote&gt;
 
@@ -146,7 +146,7 @@
 
 &lt;h1 id=&quot;语法特征&quot;&gt;语法特征&lt;/h1&gt;
 
-&lt;h1 id=&quot;与titan如何整合&quot;&gt;与Titan如何整合&lt;/h1&gt;</content><author><name></name></author><summary type="html">待填坑</summary></entry><entry><title type="html">几种主流的一致性协议!</title><link href="http://localhost:4000/_site/zookeeper/2018/04/13/Coherence-protocol.html" rel="alternate" type="text/html" title="几种主流的一致性协议!" /><published>2018-04-13T09:36:54+08:00</published><updated>2018-04-13T09:36:54+08:00</updated><id>http://localhost:4000/_site/zookeeper/2018/04/13/Coherence-protocol</id><content type="html" xml:base="http://localhost:4000/_site/zookeeper/2018/04/13/Coherence-protocol.html">&lt;blockquote&gt;
+&lt;h1 id=&quot;与titan如何整合&quot;&gt;与Titan如何整合&lt;/h1&gt;</content><author><name></name></author><summary type="html">待填坑</summary></entry><entry><title type="html">几种主流的一致性协议!</title><link href="http://localhost:4000/zookeeper/2018/04/13/Coherence-protocol.html" rel="alternate" type="text/html" title="几种主流的一致性协议!" /><published>2018-04-13T09:36:54+08:00</published><updated>2018-04-13T09:36:54+08:00</updated><id>http://localhost:4000/zookeeper/2018/04/13/Coherence-protocol</id><content type="html" xml:base="http://localhost:4000/zookeeper/2018/04/13/Coherence-protocol.html">&lt;blockquote&gt;
   &lt;p&gt;待填坑&lt;/p&gt;
 &lt;/blockquote&gt;
 
@@ -156,7 +156,7 @@
 
 &lt;h1 id=&quot;gossip&quot;&gt;Gossip&lt;/h1&gt;
 
-&lt;h1 id=&quot;totem&quot;&gt;Totem&lt;/h1&gt;</content><author><name></name></author><summary type="html">待填坑</summary></entry><entry><title type="html">读《淘宝技术这十年》</title><link href="http://localhost:4000/_site/notebook/2018/04/10/read-tabao-technology-10.html" rel="alternate" type="text/html" title="读《淘宝技术这十年》" /><published>2018-04-10T09:36:54+08:00</published><updated>2018-04-10T09:36:54+08:00</updated><id>http://localhost:4000/_site/notebook/2018/04/10/read-tabao-technology-10</id><content type="html" xml:base="http://localhost:4000/_site/notebook/2018/04/10/read-tabao-technology-10.html">&lt;blockquote&gt;
+&lt;h1 id=&quot;totem&quot;&gt;Totem&lt;/h1&gt;</content><author><name></name></author><summary type="html">待填坑</summary></entry><entry><title type="html">读《淘宝技术这十年》</title><link href="http://localhost:4000/notebook/2018/04/10/read-tabao-technology-10.html" rel="alternate" type="text/html" title="读《淘宝技术这十年》" /><published>2018-04-10T09:36:54+08:00</published><updated>2018-04-10T09:36:54+08:00</updated><id>http://localhost:4000/notebook/2018/04/10/read-tabao-technology-10</id><content type="html" xml:base="http://localhost:4000/notebook/2018/04/10/read-tabao-technology-10.html">&lt;blockquote&gt;
   &lt;p&gt;上午手上闲适，翻开了《淘宝技术这十年》读了读，以这样的视角去了解淘宝的发展，感觉非常微妙&lt;/p&gt;
 &lt;/blockquote&gt;
 
@@ -183,7 +183,7 @@
 
 &lt;blockquote&gt;
   &lt;p&gt;积土成山，积水成渊，想在技术这条路继续走下去，没有捷径&lt;/p&gt;
-&lt;/blockquote&gt;</content><author><name></name></author><summary type="html">上午手上闲适，翻开了《淘宝技术这十年》读了读，以这样的视角去了解淘宝的发展，感觉非常微妙</summary></entry><entry><title type="html">清明时节雨纷纷，杏花村啊杏花村</title><link href="http://localhost:4000/_site/playplan/2018/03/26/tomb-sweeping-day.html" rel="alternate" type="text/html" title="清明时节雨纷纷，杏花村啊杏花村" /><published>2018-03-26T09:36:54+08:00</published><updated>2018-03-26T09:36:54+08:00</updated><id>http://localhost:4000/_site/playplan/2018/03/26/tomb-sweeping-day</id><content type="html" xml:base="http://localhost:4000/_site/playplan/2018/03/26/tomb-sweeping-day.html">&lt;h1 id=&quot;清明时节雨纷纷杏花村啊杏花村&quot;&gt;清明时节雨纷纷，杏花村啊杏花村&lt;/h1&gt;
+&lt;/blockquote&gt;</content><author><name></name></author><summary type="html">上午手上闲适，翻开了《淘宝技术这十年》读了读，以这样的视角去了解淘宝的发展，感觉非常微妙</summary></entry><entry><title type="html">清明时节雨纷纷，杏花村啊杏花村</title><link href="http://localhost:4000/playplan/2018/03/26/tomb-sweeping-day.html" rel="alternate" type="text/html" title="清明时节雨纷纷，杏花村啊杏花村" /><published>2018-03-26T09:36:54+08:00</published><updated>2018-03-26T09:36:54+08:00</updated><id>http://localhost:4000/playplan/2018/03/26/tomb-sweeping-day</id><content type="html" xml:base="http://localhost:4000/playplan/2018/03/26/tomb-sweeping-day.html">&lt;h1 id=&quot;清明时节雨纷纷杏花村啊杏花村&quot;&gt;清明时节雨纷纷，杏花村啊杏花村&lt;/h1&gt;
 
 &lt;h2 id=&quot;交通&quot;&gt;交通&lt;/h2&gt;
 
@@ -365,12 +365,12 @@
   &lt;li&gt;&lt;a href=&quot;http://www.mafengwo.cn/mdd/cityroute/10186_272.html&quot;&gt;丽江&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;&lt;a href=&quot;http://www.mafengwo.cn/mdd/cityroute/10482_322.html&quot;&gt;香格里拉&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;&lt;a href=&quot;http://www.mafengwo.cn/mdd/cityroute/10487_308.html&quot;&gt;大理&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;</content><author><name></name></author><summary type="html">清明时节雨纷纷，杏花村啊杏花村</summary></entry><entry><title type="html">数据产品开发笔记</title><link href="http://localhost:4000/_site/notebook/2018/03/26/head-first-notebook.html" rel="alternate" type="text/html" title="数据产品开发笔记" /><published>2018-03-26T09:36:54+08:00</published><updated>2018-03-26T09:36:54+08:00</updated><id>http://localhost:4000/_site/notebook/2018/03/26/head-first-notebook</id><content type="html" xml:base="http://localhost:4000/_site/notebook/2018/03/26/head-first-notebook.html">&lt;h1 id=&quot;开发笔记&quot;&gt;开发笔记&lt;/h1&gt;
+&lt;/ul&gt;</content><author><name></name></author><summary type="html">清明时节雨纷纷，杏花村啊杏花村</summary></entry><entry><title type="html">数据产品开发笔记</title><link href="http://localhost:4000/notebook/2018/03/26/head-first-notebook.html" rel="alternate" type="text/html" title="数据产品开发笔记" /><published>2018-03-26T09:36:54+08:00</published><updated>2018-03-26T09:36:54+08:00</updated><id>http://localhost:4000/notebook/2018/03/26/head-first-notebook</id><content type="html" xml:base="http://localhost:4000/notebook/2018/03/26/head-first-notebook.html">&lt;h1 id=&quot;开发笔记&quot;&gt;开发笔记&lt;/h1&gt;
 
 &lt;h2 id=&quot;完全异步&quot;&gt;完全异步&lt;/h2&gt;
 &lt;p&gt;Java Web ——&amp;gt; Quartz ——&amp;gt; Engine&lt;/p&gt;
 
-&lt;h2 id=&quot;job分类&quot;&gt;Job分类&lt;/h2&gt;</content><author><name></name></author><summary type="html">开发笔记</summary></entry><entry><title type="html">JADE奇妙旅行</title><link href="http://localhost:4000/_site/jade/2018/03/09/head-first-jade.html" rel="alternate" type="text/html" title="JADE奇妙旅行" /><published>2018-03-09T09:36:54+08:00</published><updated>2018-03-09T09:36:54+08:00</updated><id>http://localhost:4000/_site/jade/2018/03/09/head-first-jade</id><content type="html" xml:base="http://localhost:4000/_site/jade/2018/03/09/head-first-jade.html">&lt;h1 id=&quot;what-is-jade&quot;&gt;WHAT IS JADE&lt;/h1&gt;
+&lt;h2 id=&quot;job分类&quot;&gt;Job分类&lt;/h2&gt;</content><author><name></name></author><summary type="html">开发笔记</summary></entry><entry><title type="html">JADE奇妙旅行</title><link href="http://localhost:4000/jade/2018/03/09/head-first-jade.html" rel="alternate" type="text/html" title="JADE奇妙旅行" /><published>2018-03-09T09:36:54+08:00</published><updated>2018-03-09T09:36:54+08:00</updated><id>http://localhost:4000/jade/2018/03/09/head-first-jade</id><content type="html" xml:base="http://localhost:4000/jade/2018/03/09/head-first-jade.html">&lt;h1 id=&quot;what-is-jade&quot;&gt;WHAT IS JADE&lt;/h1&gt;
 &lt;p&gt;JADE的中文含义是玉石，一般是指翡翠，同时有一种名为JADE的面向对象编程语言，而这里我们要了解的是另外一种JADE：&lt;/p&gt;
 
 &lt;blockquote&gt;
@@ -419,7 +419,7 @@ Jade是一种用来编写HTML模板的简洁的语言&lt;/p&gt;
 
 &lt;p&gt;不过现在好像凉了，可能不仅仅是因为JavaScript的成熟，更多的应该是生成html时，jsp其实很痛苦……很多时候都是直接声明html元素来生成&lt;/p&gt;
 
-&lt;h1 id=&quot;jade语法&quot;&gt;JADE语法&lt;/h1&gt;</content><author><name></name></author><summary type="html">WHAT IS JADE JADE的中文含义是玉石，一般是指翡翠，同时有一种名为JADE的面向对象编程语言，而这里我们要了解的是另外一种JADE：</summary></entry><entry><title type="html">kubernetes的决策分离</title><link href="http://localhost:4000/_site/kubernetes/2018/03/08/kubernetes-decision-and-making.html" rel="alternate" type="text/html" title="kubernetes的决策分离" /><published>2018-03-08T09:36:54+08:00</published><updated>2018-03-08T09:36:54+08:00</updated><id>http://localhost:4000/_site/kubernetes/2018/03/08/kubernetes-decision-and-making</id><content type="html" xml:base="http://localhost:4000/_site/kubernetes/2018/03/08/kubernetes-decision-and-making.html">&lt;h1 id=&quot;鱼与熊掌&quot;&gt;鱼与熊掌&lt;/h1&gt;
+&lt;h1 id=&quot;jade语法&quot;&gt;JADE语法&lt;/h1&gt;</content><author><name></name></author><summary type="html">WHAT IS JADE JADE的中文含义是玉石，一般是指翡翠，同时有一种名为JADE的面向对象编程语言，而这里我们要了解的是另外一种JADE：</summary></entry><entry><title type="html">kubernetes的决策分离</title><link href="http://localhost:4000/kubernetes/2018/03/08/kubernetes-decision-and-making.html" rel="alternate" type="text/html" title="kubernetes的决策分离" /><published>2018-03-08T09:36:54+08:00</published><updated>2018-03-08T09:36:54+08:00</updated><id>http://localhost:4000/kubernetes/2018/03/08/kubernetes-decision-and-making</id><content type="html" xml:base="http://localhost:4000/kubernetes/2018/03/08/kubernetes-decision-and-making.html">&lt;h1 id=&quot;鱼与熊掌&quot;&gt;鱼与熊掌&lt;/h1&gt;
 &lt;p&gt;笼统了解了一下Kubernetes的架构设计，发现它的架构非常有意思，在一些方面实现了一定程度上得的“鱼与熊掌得兼”：&lt;/p&gt;
 &lt;ol&gt;
   &lt;li&gt;系统本身高复杂——对外接口简单清晰&lt;/li&gt;
