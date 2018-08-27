@@ -1,4 +1,76 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.6.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2018-08-27T11:51:30+08:00</updated><id>http://localhost:4000/</id><title type="html">Lionel PlayGround</title><subtitle>Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.</subtitle><entry><title type="html">如何进行一次活动摄影</title><link href="http://localhost:4000/skills/2018/08/27/how-to-photo-an-activity.html" rel="alternate" type="text/html" title="如何进行一次活动摄影" /><published>2018-08-27T09:36:54+08:00</published><updated>2018-08-27T09:36:54+08:00</updated><id>http://localhost:4000/skills/2018/08/27/how-to-photo-an-activity</id><content type="html" xml:base="http://localhost:4000/skills/2018/08/27/how-to-photo-an-activity.html">&lt;h1 id=&quot;如何进行一次活动摄影&quot;&gt;如何进行一次活动摄影&lt;/h1&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.6.2">Jekyll</generator><link href="http://localhost:4000/_site/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/_site/" rel="alternate" type="text/html" /><updated>2018-08-27T16:53:20+08:00</updated><id>http://localhost:4000/_site/</id><title type="html">Lionel PlayGround</title><subtitle>welcome to my personal blog site ~</subtitle><entry><title type="html">TCP/IP详解卷一阅读笔记</title><link href="http://localhost:4000/_site/tcpip/2018/08/27/read-tcpip-volume-one.html" rel="alternate" type="text/html" title="TCP/IP详解卷一阅读笔记" /><published>2018-08-27T09:36:54+08:00</published><updated>2018-08-27T09:36:54+08:00</updated><id>http://localhost:4000/_site/tcpip/2018/08/27/read-tcpip-volume-one</id><content type="html" xml:base="http://localhost:4000/_site/tcpip/2018/08/27/read-tcpip-volume-one.html">&lt;h1 id=&quot;tcpip详解卷一阅读笔记&quot;&gt;TCP/IP详解卷一阅读笔记&lt;/h1&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;原想深入了解一下tcp/ip的原理，于是翻开了《TCP/IP详解 卷一：协议》，陆陆续续粗糙地看了两个月终于看完了，发现基础的原理还是理解不到位，但是仅仅对TCP/IP协议簇有一定的了解也是很大的收获了&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;这里对了解到的协议概念做一下索引&lt;/p&gt;
+
+&lt;h2 id=&quot;一网络分层&quot;&gt;一、网络分层&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;链路层：设备驱动程序及接口卡&lt;/li&gt;
+  &lt;li&gt;网络层：IP、ICMP和IGMP&lt;/li&gt;
+  &lt;li&gt;运输层：TCP和UDP&lt;/li&gt;
+  &lt;li&gt;应用层：Telnet、FTP和email等&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;二ip&quot;&gt;二、IP&lt;/h2&gt;
+&lt;p&gt;网际协议&lt;/p&gt;
+
+&lt;h2 id=&quot;三一些其它协议&quot;&gt;三、一些其它协议&lt;/h2&gt;
+&lt;h3 id=&quot;网路层&quot;&gt;网路层&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;ARP 地址解析协议&lt;/li&gt;
+  &lt;li&gt;RARP 逆地址解析协议&lt;/li&gt;
+  &lt;li&gt;ICMP Internet控制报文协议&lt;/li&gt;
+  &lt;li&gt;IGMP Internet组管理协议&lt;/li&gt;
+  &lt;li&gt;DNS 域名系统&lt;/li&gt;
+  &lt;li&gt;RIP 选路信息协议 动态选路协议的一种&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;运输层&quot;&gt;运输层&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;TFTP 简单文件传送协议&lt;/li&gt;
+  &lt;li&gt;BOOTP 引导程序协议 DHCP前身&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;应用层&quot;&gt;应用层&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;FTP 文件传送协议&lt;/li&gt;
+  &lt;li&gt;SNMP 简单网络管理协议&lt;/li&gt;
+  &lt;li&gt;SMTP 简单邮件传送协议&lt;/li&gt;
+  &lt;li&gt;HTTP 超文本传输协议&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;四udp&quot;&gt;四、UDP&lt;/h2&gt;
+&lt;p&gt;用户数据报协议&lt;/p&gt;
+
+&lt;h2 id=&quot;五tcp&quot;&gt;五、TCP&lt;/h2&gt;
+&lt;p&gt;传输控制协议&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;连接的建立与终止&lt;/li&gt;
+  &lt;li&gt;交互数据流&lt;/li&gt;
+  &lt;li&gt;成块数据流&lt;/li&gt;
+  &lt;li&gt;超时与重传&lt;/li&gt;
+  &lt;li&gt;坚持定时器&lt;/li&gt;
+  &lt;li&gt;保活定时器&lt;/li&gt;
+  &lt;li&gt;未来与性能&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;六一些指令和程序&quot;&gt;六、一些指令和程序&lt;/h2&gt;
+&lt;p&gt;很多程序其实也是协议的实现，比如telnet和rlogin都有对应的telnet协议和rlogin协议
+但通常是针对具体目的，具有实用性而通用性不足，这里列举为程序&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;ping&lt;/li&gt;
+  &lt;li&gt;traceroute&lt;/li&gt;
+  &lt;li&gt;ifconfig&lt;/li&gt;
+  &lt;li&gt;netstat&lt;/li&gt;
+  &lt;li&gt;tcpdump&lt;/li&gt;
+  &lt;li&gt;telnet&lt;/li&gt;
+  &lt;li&gt;rlogin&lt;/li&gt;
+  &lt;li&gt;nfs&lt;/li&gt;
+&lt;/ul&gt;</content><author><name></name></author><summary type="html">TCP/IP详解卷一阅读笔记</summary></entry><entry><title type="html">如何进行一次活动摄影</title><link href="http://localhost:4000/_site/skills/2018/08/27/how-to-photo-an-activity.html" rel="alternate" type="text/html" title="如何进行一次活动摄影" /><published>2018-08-27T09:36:54+08:00</published><updated>2018-08-27T09:36:54+08:00</updated><id>http://localhost:4000/_site/skills/2018/08/27/how-to-photo-an-activity</id><content type="html" xml:base="http://localhost:4000/_site/skills/2018/08/27/how-to-photo-an-activity.html">&lt;h1 id=&quot;如何进行一次活动摄影&quot;&gt;如何进行一次活动摄影&lt;/h1&gt;
 
 &lt;blockquote&gt;
   &lt;p&gt;本文沿着活动的时序线对摄影的注意点进行介绍&lt;/p&gt;
@@ -63,10 +135,10 @@
   &lt;li&gt;内容环节特写&lt;/li&gt;
   &lt;li&gt;优秀观众特写&lt;/li&gt;
   &lt;li&gt;合影&lt;/li&gt;
-&lt;/ul&gt;</content><author><name></name></author><summary type="html">如何进行一次活动摄影</summary></entry><entry><title type="html">劳动人民最光荣之东极岛</title><link href="http://localhost:4000/playplan/2018/04/16/labour-day-east-land.html" rel="alternate" type="text/html" title="劳动人民最光荣之东极岛" /><published>2018-04-16T09:36:54+08:00</published><updated>2018-04-16T09:36:54+08:00</updated><id>http://localhost:4000/playplan/2018/04/16/labour-day-east-land</id><content type="html" xml:base="http://localhost:4000/playplan/2018/04/16/labour-day-east-land.html">&lt;blockquote&gt;
+&lt;/ul&gt;</content><author><name></name></author><summary type="html">如何进行一次活动摄影</summary></entry><entry><title type="html">劳动人民最光荣之东极岛</title><link href="http://localhost:4000/_site/playplan/2018/04/16/labour-day-east-land.html" rel="alternate" type="text/html" title="劳动人民最光荣之东极岛" /><published>2018-04-16T09:36:54+08:00</published><updated>2018-04-16T09:36:54+08:00</updated><id>http://localhost:4000/_site/playplan/2018/04/16/labour-day-east-land</id><content type="html" xml:base="http://localhost:4000/_site/playplan/2018/04/16/labour-day-east-land.html">&lt;blockquote&gt;
   &lt;p&gt;原本计划去武功山徒步，但是没有买到往返火车票，只剩下第一天和第三天在大巴上的一个团，作罢
 去东极岛！时间利用率比较高&lt;/p&gt;
-&lt;/blockquote&gt;</content><author><name></name></author><summary type="html">原本计划去武功山徒步，但是没有买到往返火车票，只剩下第一天和第三天在大巴上的一个团，作罢 去东极岛！时间利用率比较高</summary></entry><entry><title type="html">gremlin学习笔记</title><link href="http://localhost:4000/database/2018/04/13/Gremlin.html" rel="alternate" type="text/html" title="gremlin学习笔记" /><published>2018-04-13T09:36:54+08:00</published><updated>2018-04-13T09:36:54+08:00</updated><id>http://localhost:4000/database/2018/04/13/Gremlin</id><content type="html" xml:base="http://localhost:4000/database/2018/04/13/Gremlin.html">&lt;blockquote&gt;
+&lt;/blockquote&gt;</content><author><name></name></author><summary type="html">原本计划去武功山徒步，但是没有买到往返火车票，只剩下第一天和第三天在大巴上的一个团，作罢 去东极岛！时间利用率比较高</summary></entry><entry><title type="html">gremlin学习笔记</title><link href="http://localhost:4000/_site/database/2018/04/13/Gremlin.html" rel="alternate" type="text/html" title="gremlin学习笔记" /><published>2018-04-13T09:36:54+08:00</published><updated>2018-04-13T09:36:54+08:00</updated><id>http://localhost:4000/_site/database/2018/04/13/Gremlin</id><content type="html" xml:base="http://localhost:4000/_site/database/2018/04/13/Gremlin.html">&lt;blockquote&gt;
   &lt;p&gt;待填坑&lt;/p&gt;
 &lt;/blockquote&gt;
 
@@ -74,7 +146,7 @@
 
 &lt;h1 id=&quot;语法特征&quot;&gt;语法特征&lt;/h1&gt;
 
-&lt;h1 id=&quot;与titan如何整合&quot;&gt;与Titan如何整合&lt;/h1&gt;</content><author><name></name></author><summary type="html">待填坑</summary></entry><entry><title type="html">几种主流的一致性协议!</title><link href="http://localhost:4000/zookeeper/2018/04/13/Coherence-protocol.html" rel="alternate" type="text/html" title="几种主流的一致性协议!" /><published>2018-04-13T09:36:54+08:00</published><updated>2018-04-13T09:36:54+08:00</updated><id>http://localhost:4000/zookeeper/2018/04/13/Coherence-protocol</id><content type="html" xml:base="http://localhost:4000/zookeeper/2018/04/13/Coherence-protocol.html">&lt;blockquote&gt;
+&lt;h1 id=&quot;与titan如何整合&quot;&gt;与Titan如何整合&lt;/h1&gt;</content><author><name></name></author><summary type="html">待填坑</summary></entry><entry><title type="html">几种主流的一致性协议!</title><link href="http://localhost:4000/_site/zookeeper/2018/04/13/Coherence-protocol.html" rel="alternate" type="text/html" title="几种主流的一致性协议!" /><published>2018-04-13T09:36:54+08:00</published><updated>2018-04-13T09:36:54+08:00</updated><id>http://localhost:4000/_site/zookeeper/2018/04/13/Coherence-protocol</id><content type="html" xml:base="http://localhost:4000/_site/zookeeper/2018/04/13/Coherence-protocol.html">&lt;blockquote&gt;
   &lt;p&gt;待填坑&lt;/p&gt;
 &lt;/blockquote&gt;
 
@@ -84,7 +156,7 @@
 
 &lt;h1 id=&quot;gossip&quot;&gt;Gossip&lt;/h1&gt;
 
-&lt;h1 id=&quot;totem&quot;&gt;Totem&lt;/h1&gt;</content><author><name></name></author><summary type="html">待填坑</summary></entry><entry><title type="html">读《淘宝技术这十年》</title><link href="http://localhost:4000/notebook/2018/04/10/read-tabao-technology-10.html" rel="alternate" type="text/html" title="读《淘宝技术这十年》" /><published>2018-04-10T09:36:54+08:00</published><updated>2018-04-10T09:36:54+08:00</updated><id>http://localhost:4000/notebook/2018/04/10/read-tabao-technology-10</id><content type="html" xml:base="http://localhost:4000/notebook/2018/04/10/read-tabao-technology-10.html">&lt;blockquote&gt;
+&lt;h1 id=&quot;totem&quot;&gt;Totem&lt;/h1&gt;</content><author><name></name></author><summary type="html">待填坑</summary></entry><entry><title type="html">读《淘宝技术这十年》</title><link href="http://localhost:4000/_site/notebook/2018/04/10/read-tabao-technology-10.html" rel="alternate" type="text/html" title="读《淘宝技术这十年》" /><published>2018-04-10T09:36:54+08:00</published><updated>2018-04-10T09:36:54+08:00</updated><id>http://localhost:4000/_site/notebook/2018/04/10/read-tabao-technology-10</id><content type="html" xml:base="http://localhost:4000/_site/notebook/2018/04/10/read-tabao-technology-10.html">&lt;blockquote&gt;
   &lt;p&gt;上午手上闲适，翻开了《淘宝技术这十年》读了读，以这样的视角去了解淘宝的发展，感觉非常微妙&lt;/p&gt;
 &lt;/blockquote&gt;
 
@@ -111,7 +183,7 @@
 
 &lt;blockquote&gt;
   &lt;p&gt;积土成山，积水成渊，想在技术这条路继续走下去，没有捷径&lt;/p&gt;
-&lt;/blockquote&gt;</content><author><name></name></author><summary type="html">上午手上闲适，翻开了《淘宝技术这十年》读了读，以这样的视角去了解淘宝的发展，感觉非常微妙</summary></entry><entry><title type="html">清明时节雨纷纷，杏花村啊杏花村</title><link href="http://localhost:4000/playplan/2018/03/26/tomb-sweeping-day.html" rel="alternate" type="text/html" title="清明时节雨纷纷，杏花村啊杏花村" /><published>2018-03-26T09:36:54+08:00</published><updated>2018-03-26T09:36:54+08:00</updated><id>http://localhost:4000/playplan/2018/03/26/tomb-sweeping-day</id><content type="html" xml:base="http://localhost:4000/playplan/2018/03/26/tomb-sweeping-day.html">&lt;h1 id=&quot;清明时节雨纷纷杏花村啊杏花村&quot;&gt;清明时节雨纷纷，杏花村啊杏花村&lt;/h1&gt;
+&lt;/blockquote&gt;</content><author><name></name></author><summary type="html">上午手上闲适，翻开了《淘宝技术这十年》读了读，以这样的视角去了解淘宝的发展，感觉非常微妙</summary></entry><entry><title type="html">清明时节雨纷纷，杏花村啊杏花村</title><link href="http://localhost:4000/_site/playplan/2018/03/26/tomb-sweeping-day.html" rel="alternate" type="text/html" title="清明时节雨纷纷，杏花村啊杏花村" /><published>2018-03-26T09:36:54+08:00</published><updated>2018-03-26T09:36:54+08:00</updated><id>http://localhost:4000/_site/playplan/2018/03/26/tomb-sweeping-day</id><content type="html" xml:base="http://localhost:4000/_site/playplan/2018/03/26/tomb-sweeping-day.html">&lt;h1 id=&quot;清明时节雨纷纷杏花村啊杏花村&quot;&gt;清明时节雨纷纷，杏花村啊杏花村&lt;/h1&gt;
 
 &lt;h2 id=&quot;交通&quot;&gt;交通&lt;/h2&gt;
 
@@ -293,12 +365,12 @@
   &lt;li&gt;&lt;a href=&quot;http://www.mafengwo.cn/mdd/cityroute/10186_272.html&quot;&gt;丽江&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;&lt;a href=&quot;http://www.mafengwo.cn/mdd/cityroute/10482_322.html&quot;&gt;香格里拉&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;&lt;a href=&quot;http://www.mafengwo.cn/mdd/cityroute/10487_308.html&quot;&gt;大理&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;</content><author><name></name></author><summary type="html">清明时节雨纷纷，杏花村啊杏花村</summary></entry><entry><title type="html">数据产品开发笔记</title><link href="http://localhost:4000/notebook/2018/03/26/head-first-notebook.html" rel="alternate" type="text/html" title="数据产品开发笔记" /><published>2018-03-26T09:36:54+08:00</published><updated>2018-03-26T09:36:54+08:00</updated><id>http://localhost:4000/notebook/2018/03/26/head-first-notebook</id><content type="html" xml:base="http://localhost:4000/notebook/2018/03/26/head-first-notebook.html">&lt;h1 id=&quot;开发笔记&quot;&gt;开发笔记&lt;/h1&gt;
+&lt;/ul&gt;</content><author><name></name></author><summary type="html">清明时节雨纷纷，杏花村啊杏花村</summary></entry><entry><title type="html">数据产品开发笔记</title><link href="http://localhost:4000/_site/notebook/2018/03/26/head-first-notebook.html" rel="alternate" type="text/html" title="数据产品开发笔记" /><published>2018-03-26T09:36:54+08:00</published><updated>2018-03-26T09:36:54+08:00</updated><id>http://localhost:4000/_site/notebook/2018/03/26/head-first-notebook</id><content type="html" xml:base="http://localhost:4000/_site/notebook/2018/03/26/head-first-notebook.html">&lt;h1 id=&quot;开发笔记&quot;&gt;开发笔记&lt;/h1&gt;
 
 &lt;h2 id=&quot;完全异步&quot;&gt;完全异步&lt;/h2&gt;
 &lt;p&gt;Java Web ——&amp;gt; Quartz ——&amp;gt; Engine&lt;/p&gt;
 
-&lt;h2 id=&quot;job分类&quot;&gt;Job分类&lt;/h2&gt;</content><author><name></name></author><summary type="html">开发笔记</summary></entry><entry><title type="html">JADE奇妙旅行</title><link href="http://localhost:4000/jade/2018/03/09/head-first-jade.html" rel="alternate" type="text/html" title="JADE奇妙旅行" /><published>2018-03-09T09:36:54+08:00</published><updated>2018-03-09T09:36:54+08:00</updated><id>http://localhost:4000/jade/2018/03/09/head-first-jade</id><content type="html" xml:base="http://localhost:4000/jade/2018/03/09/head-first-jade.html">&lt;h1 id=&quot;what-is-jade&quot;&gt;WHAT IS JADE&lt;/h1&gt;
+&lt;h2 id=&quot;job分类&quot;&gt;Job分类&lt;/h2&gt;</content><author><name></name></author><summary type="html">开发笔记</summary></entry><entry><title type="html">JADE奇妙旅行</title><link href="http://localhost:4000/_site/jade/2018/03/09/head-first-jade.html" rel="alternate" type="text/html" title="JADE奇妙旅行" /><published>2018-03-09T09:36:54+08:00</published><updated>2018-03-09T09:36:54+08:00</updated><id>http://localhost:4000/_site/jade/2018/03/09/head-first-jade</id><content type="html" xml:base="http://localhost:4000/_site/jade/2018/03/09/head-first-jade.html">&lt;h1 id=&quot;what-is-jade&quot;&gt;WHAT IS JADE&lt;/h1&gt;
 &lt;p&gt;JADE的中文含义是玉石，一般是指翡翠，同时有一种名为JADE的面向对象编程语言，而这里我们要了解的是另外一种JADE：&lt;/p&gt;
 
 &lt;blockquote&gt;
@@ -347,7 +419,7 @@ Jade是一种用来编写HTML模板的简洁的语言&lt;/p&gt;
 
 &lt;p&gt;不过现在好像凉了，可能不仅仅是因为JavaScript的成熟，更多的应该是生成html时，jsp其实很痛苦……很多时候都是直接声明html元素来生成&lt;/p&gt;
 
-&lt;h1 id=&quot;jade语法&quot;&gt;JADE语法&lt;/h1&gt;</content><author><name></name></author><summary type="html">WHAT IS JADE JADE的中文含义是玉石，一般是指翡翠，同时有一种名为JADE的面向对象编程语言，而这里我们要了解的是另外一种JADE：</summary></entry><entry><title type="html">kubernetes的决策分离</title><link href="http://localhost:4000/kubernetes/2018/03/08/kubernetes-decision-and-making.html" rel="alternate" type="text/html" title="kubernetes的决策分离" /><published>2018-03-08T09:36:54+08:00</published><updated>2018-03-08T09:36:54+08:00</updated><id>http://localhost:4000/kubernetes/2018/03/08/kubernetes-decision-and-making</id><content type="html" xml:base="http://localhost:4000/kubernetes/2018/03/08/kubernetes-decision-and-making.html">&lt;h1 id=&quot;鱼与熊掌&quot;&gt;鱼与熊掌&lt;/h1&gt;
+&lt;h1 id=&quot;jade语法&quot;&gt;JADE语法&lt;/h1&gt;</content><author><name></name></author><summary type="html">WHAT IS JADE JADE的中文含义是玉石，一般是指翡翠，同时有一种名为JADE的面向对象编程语言，而这里我们要了解的是另外一种JADE：</summary></entry><entry><title type="html">kubernetes的决策分离</title><link href="http://localhost:4000/_site/kubernetes/2018/03/08/kubernetes-decision-and-making.html" rel="alternate" type="text/html" title="kubernetes的决策分离" /><published>2018-03-08T09:36:54+08:00</published><updated>2018-03-08T09:36:54+08:00</updated><id>http://localhost:4000/_site/kubernetes/2018/03/08/kubernetes-decision-and-making</id><content type="html" xml:base="http://localhost:4000/_site/kubernetes/2018/03/08/kubernetes-decision-and-making.html">&lt;h1 id=&quot;鱼与熊掌&quot;&gt;鱼与熊掌&lt;/h1&gt;
 &lt;p&gt;笼统了解了一下Kubernetes的架构设计，发现它的架构非常有意思，在一些方面实现了一定程度上得的“鱼与熊掌得兼”：&lt;/p&gt;
 &lt;ol&gt;
   &lt;li&gt;系统本身高复杂——对外接口简单清晰&lt;/li&gt;
@@ -425,64 +497,4 @@ Jade是一种用来编写HTML模板的简洁的语言&lt;/p&gt;
 &lt;p&gt;职能组件以此来实现了伪分布式的高可用&lt;/p&gt;
 
 &lt;h3 id=&quot;kubelet&quot;&gt;kubelet&lt;/h3&gt;
-&lt;p&gt;kubelet通常是以系统的service形式存在的，所以kubelet的高可用一般是有操作系统保证&lt;/p&gt;</content><author><name></name></author><summary type="html">鱼与熊掌 笼统了解了一下Kubernetes的架构设计，发现它的架构非常有意思，在一些方面实现了一定程度上得的“鱼与熊掌得兼”： 系统本身高复杂——对外接口简单清晰 高访问——没有性能瓶颈 高可用的特性——实现上的低成本</summary></entry><entry><title type="html">Zookeeper的一致性与选举!</title><link href="http://localhost:4000/zookeeper/2018/03/07/zookeeper-consistent-and-election.html" rel="alternate" type="text/html" title="Zookeeper的一致性与选举!" /><published>2018-03-07T09:36:54+08:00</published><updated>2018-03-07T09:36:54+08:00</updated><id>http://localhost:4000/zookeeper/2018/03/07/zookeeper-consistent-and-election</id><content type="html" xml:base="http://localhost:4000/zookeeper/2018/03/07/zookeeper-consistent-and-election.html">&lt;h1 id=&quot;一致性算法paxos&quot;&gt;一致性算法Paxos&lt;/h1&gt;
-&lt;p&gt;提到一致性算法（协议），无法绕开Paxos——Paxos Wiki，这是过去十年分布式一致性协议上的主流算法&lt;/p&gt;
-
-&lt;p&gt;首先将议员的角色分为proposers，acceptors，和learners（允许身兼数职）。proposers提出提案，提案信息包括提案编号和提议的value；acceptor收到提案后可以接受（accept）提案，若提案获得多数acceptors的接受，则称该提案被批准（chosen）；learners只能“学习”被批准的提案。划分角色后，就可以更精确的定义问题：&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;决议（value）只有在被proposers提出后才能被批准（未经批准的决议称为“提案（proposal）”）&lt;/li&gt;
-  &lt;li&gt;在一次Paxos算法的执行实例中，只批准（chosen）一个value&lt;/li&gt;
-  &lt;li&gt;learners只能获得被批准（chosen）的value&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;在以上3个约束基础上，强化约束如下既可得到Paxos算法&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;P1：一个acceptor必须接受（accept）第一次收到的提案
-    &lt;ul&gt;
-      &lt;li&gt;P1a：当且仅当acceptor没有回应过编号大于n的prepare请求时，acceptor接受（accept）编号为n的提案&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;P2：一旦一个具有value v的提案被批准（chosen），那么之后批准（chosen）的提案必须具有value v
-    &lt;ul&gt;
-      &lt;li&gt;P2a：一旦一个具有value v的提案被批准（chosen），那么之后任何acceptor再次接受（accept）的提案必须具有value v&lt;/li&gt;
-      &lt;li&gt;P2b：一旦一个具有value v的提案被批准（chosen），那么以后任何proposer提出的提案必须具有value v&lt;/li&gt;
-      &lt;li&gt;P2c：如果一个编号为n的提案具有value v，那么存在一个多数派，要么他们中所有人都没有接受（accept）编号小于n的任何提案，要么他们已经接受（accept）的所有编号小于n的提案中编号最大的那个提案具有value v&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;Paxos依靠vote上的多数派原则，进行演化收敛——副作用就是当一个主题的proposal有多个value时收敛速度下降快，比如全局leader election&lt;/p&gt;
-
-&lt;h1 id=&quot;zab&quot;&gt;Zab&lt;/h1&gt;
-&lt;p&gt;而Zookeeper基于Paxos进行了改造——Zab（Zookeeper Automatic BroadCast Protocol）&lt;/p&gt;
-
-&lt;p&gt;Zab vs. Paxos&lt;/p&gt;
-
-&lt;p&gt;简单来讲，Zab采用了Paxos所使用的vote机制——多数派原则和消息传递特征&lt;/p&gt;
-
-&lt;p&gt;而从设计上，Paxos是针对state machine replication，既有限状态机，无法优秀的支持primary-backup replication&lt;/p&gt;
-
-&lt;p&gt;俩种replication的区别在于state machine的state set和state change是确定的，需要一致的是各个replications对state change request的一致顺序处理，而primary-back是指state change from last state，而且state set往往是没有边界的，也就不存在清晰的state change set
-前者的replica在某一个时间点可能状态不同，但是保证在定序执行完所有request后状态一致，要求一致性算法做到request的定序（即使request是分散凌乱的），而后者是状态一个接一个的primary updates，要求一致性算法做到在updates过程中的容错
-Paxos如果想应用在primary-backup replication中，必须以primary为leader，然后可以通过一次只接受一个request来保证primary update动作的原子性，但是这样会非常损耗性能&lt;/p&gt;
-
-&lt;p&gt;所以Zab对Paxos leader模式做的改进有：&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;从历史中恢复——保证了request的uncommit与commit状态&lt;/li&gt;
-  &lt;li&gt;增加prefix ordering properties以支持primary/backup的并发性能——所有request被杂乱地送往leader&lt;/li&gt;
-  &lt;li&gt;在更换leader期间保证proposal是定序的——增加了数据同步和数据广播&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;而Zab leader选择的依据，则是ZXid最高，意味着处理过最多的request，leader election本质上是全局范围内最大ZXid持有者的收敛：&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;leader election（认知范围内收敛完成后，资历最老的带头闹革命）&lt;/li&gt;
-  &lt;li&gt;建立epoch（向全国确立新年号，以保证没有前朝皇室余孽，如果没有收到所有人的确立回复，返回leader election）&lt;/li&gt;
-  &lt;li&gt;leader与follower同步（整顿内务，把前朝的帐算清楚，确定一下哪些follower可以上岗哪些不行，follower差不多就绪了，开始挂着新epoch搞生产）&lt;/li&gt;
-  &lt;li&gt;数据广播（日常工作，发号施令，以[ZXid, data]向follower传达）&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;（貌似和kafka log replication的模式略相似）&lt;/p&gt;</content><author><name></name></author><summary type="html">一致性算法Paxos 提到一致性算法（协议），无法绕开Paxos——Paxos Wiki，这是过去十年分布式一致性协议上的主流算法</summary></entry></feed>
+&lt;p&gt;kubelet通常是以系统的service形式存在的，所以kubelet的高可用一般是有操作系统保证&lt;/p&gt;</content><author><name></name></author><summary type="html">鱼与熊掌 笼统了解了一下Kubernetes的架构设计，发现它的架构非常有意思，在一些方面实现了一定程度上得的“鱼与熊掌得兼”： 系统本身高复杂——对外接口简单清晰 高访问——没有性能瓶颈 高可用的特性——实现上的低成本</summary></entry></feed>
