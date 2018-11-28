@@ -13,7 +13,8 @@ categories: playplan
 ## 路线
 莫干山整体不大（[戳我看地图](http://www.mafengwo.cn/mdd/map/14125.html)），路线比较自由，路线时间预期4小时左右，可以适当增减
 - [景点路线](http://www.mafengwo.cn/gonglve/ziyouxing/3116.html)
-- [徒步路线](http://www.360doc.com/content/17/1228/19/14453044_717206434.shtml)
+- [徒步路线](http://www.mafengwo.cn/i/10840854.html)
+- [另外一些徒步路线](http://www.360doc.com/content/17/1228/19/14453044_717206434.shtml)
 
 ## 交通
 - 杭州站集合，乘坐K594 10:17出发，10:59到达德清西
