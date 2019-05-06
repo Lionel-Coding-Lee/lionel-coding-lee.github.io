@@ -1,4 +1,181 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.6.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2019-01-31T17:18:45+08:00</updated><id>http://localhost:4000/</id><title type="html">Lionel PlayGround</title><subtitle>welcome to my personal blog site ~</subtitle><entry><title type="html">《二十五岁书》</title><link href="http://localhost:4000/playplan/2019/01/31/write-in-25-years-old.html" rel="alternate" type="text/html" title="《二十五岁书》" /><published>2019-01-31T14:36:54+08:00</published><updated>2019-01-31T14:36:54+08:00</updated><id>http://localhost:4000/playplan/2019/01/31/write-in-25-years-old</id><content type="html" xml:base="http://localhost:4000/playplan/2019/01/31/write-in-25-years-old.html">&lt;h1 id=&quot;二十五年&quot;&gt;二十五年&lt;/h1&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.6.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2019-05-06T14:18:20+08:00</updated><id>http://localhost:4000/</id><title type="html">Lionel PlayGround</title><subtitle>welcome to my personal blog site ~</subtitle><entry><title type="html">5月健康管理！</title><link href="http://localhost:4000/playplan/2019/05/06/health-in-30days.html" rel="alternate" type="text/html" title="5月健康管理！" /><published>2019-05-06T13:36:54+08:00</published><updated>2019-05-06T13:36:54+08:00</updated><id>http://localhost:4000/playplan/2019/05/06/health-in-30days</id><content type="html" xml:base="http://localhost:4000/playplan/2019/05/06/health-in-30days.html">&lt;blockquote&gt;
+  &lt;p&gt;夫未战而庙算胜者，得算多也；未战而庙算不胜者，得算少也&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h2 id=&quot;attention&quot;&gt;Attention&lt;/h2&gt;
+&lt;p&gt;Keep Attention&lt;/p&gt;
+
+&lt;h2 id=&quot;节奏&quot;&gt;节奏&lt;/h2&gt;
+&lt;blockquote&gt;
+  &lt;p&gt;整体上分4周&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;第一周 1kg&lt;/li&gt;
+  &lt;li&gt;第二周 2kg&lt;/li&gt;
+  &lt;li&gt;第三周 2kg&lt;/li&gt;
+  &lt;li&gt;第四周 保持&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;作息&quot;&gt;作息&lt;/h2&gt;
+&lt;blockquote&gt;
+  &lt;p&gt;朝6晚10&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th style=&quot;text-align: center&quot;&gt;城市间&lt;/th&gt;
+      &lt;th style=&quot;text-align: center&quot;&gt;交通方式&lt;/th&gt;
+      &lt;th&gt; &lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;6：30&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;起床&lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;7：00&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;洗漱&lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;7:45&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;阅读&lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;8:15&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;通勤&lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;8:45&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;早餐&lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;9:00&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;每日计划&lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;9:30&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;阅读&lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;10:30&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;需要沟通的工作&lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;11:30&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;需要专注的工作&lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;11:45&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;放松活动&lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;12:20&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;午餐&lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;12:35&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;遛圈&lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;13:00&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;午休&lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;13:15&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;放松活动&lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;13:30&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;整理&lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;15:30&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;第一阶段工作&lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;17:30&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;第二阶段工作&lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;18:00&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;收尾&lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;20:30&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;自由活动&lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;21:00&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;洗漱&lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;21:00&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;放松活动&lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;22:00&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;阅读&lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;22:30&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;睡觉&lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;h2 id=&quot;热量&quot;&gt;热量&lt;/h2&gt;
+&lt;p&gt;1KG脂肪完全氧化燃烧大概&lt;strong&gt;9000kcal&lt;/strong&gt;热量&lt;br /&gt;
+慢跑一小时会消耗500kcal左右的热量，跑16~20小时就可以燃烧1KG脂肪&lt;br /&gt;
+我们身体的肥肉不仅仅是脂肪，还包含和水和蛋白质，燃烧1KG肥肉大概需要&lt;strong&gt;7700kcal&lt;/strong&gt;，相当于少了2.5h的慢跑运动量！&lt;br /&gt;
+笔者过去的基础代谢大概在每天&lt;strong&gt;2200~2500kcal&lt;/strong&gt;左右。&lt;br /&gt;
+想要在30天内减重5KG，意味着在之前体重稳定期的基础上，在30天内通过各种方式燃烧&lt;strong&gt;40000kcal&lt;/strong&gt;的热量。 &lt;br /&gt;
+每天多燃烧&lt;strong&gt;1700kcal&lt;/strong&gt;，这个数值基本等于稳定期的每日摄入和每日消耗，这些消耗还包括1500kcal左右的身体基础代谢。意味着在保持健康（摄入和代谢稳定）的前提下，每天燃烧&lt;strong&gt;1700kcal&lt;/strong&gt;，3.5小时左右的慢跑。&lt;/p&gt;
+
+&lt;p&gt;看起来，这个目标是很困难的。&lt;/p&gt;
+
+&lt;h2 id=&quot;运动计划&quot;&gt;运动计划&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;长时间中强度有氧：每周末一次2.5小时左右，是运动计划的核心，旨在消耗脂肪&lt;/li&gt;
+  &lt;li&gt;中等时间低强度有氧：每周一一次，旨在缓解周末长时间有氧带来的酸胀等身体负担&lt;/li&gt;
+  &lt;li&gt;中强度力量锻炼：周二周四每次一小时，旨在增强基础代谢&lt;/li&gt;
+  &lt;li&gt;低强度自由运动：周三90分钟，主要是全身性运动为主，旨在调节身体、避免局部疲劳&lt;/li&gt;
+  &lt;li&gt;中强度自由运动：每周末一次2.5小时左右，以全身性运动为主，旨在协调性、灵活性等&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;饮食计划&quot;&gt;饮食计划&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;避免高油高盐、碳酸、奶茶&lt;/li&gt;
+  &lt;li&gt;增大苹果、酸奶、香蕉的摄入占比&lt;/li&gt;
+  &lt;li&gt;适量多喝水（防止便秘&lt;/li&gt;
+  &lt;li&gt;睡前4小时不摄入饮食&lt;/li&gt;
+  &lt;li&gt;每周吃一顿好的，也未尝不可……&lt;/li&gt;
+&lt;/ul&gt;</content><author><name></name></author><summary type="html">夫未战而庙算胜者，得算多也；未战而庙算不胜者，得算少也 Attention Keep Attention</summary></entry><entry><title type="html">《二十五岁书》</title><link href="http://localhost:4000/playplan/2019/01/31/write-in-25-years-old.html" rel="alternate" type="text/html" title="《二十五岁书》" /><published>2019-01-31T14:36:54+08:00</published><updated>2019-01-31T14:36:54+08:00</updated><id>http://localhost:4000/playplan/2019/01/31/write-in-25-years-old</id><content type="html" xml:base="http://localhost:4000/playplan/2019/01/31/write-in-25-years-old.html">&lt;h1 id=&quot;二十五年&quot;&gt;二十五年&lt;/h1&gt;
 &lt;blockquote&gt;
   &lt;p&gt;自由&lt;/p&gt;
 &lt;/blockquote&gt;
@@ -298,14 +475,4 @@
 
 &lt;h1 id=&quot;语法特征&quot;&gt;语法特征&lt;/h1&gt;
 
-&lt;h1 id=&quot;与titan如何整合&quot;&gt;与Titan如何整合&lt;/h1&gt;</content><author><name></name></author><summary type="html">待填坑</summary></entry><entry><title type="html">几种主流的一致性协议!</title><link href="http://localhost:4000/zookeeper/2018/04/13/Coherence-protocol.html" rel="alternate" type="text/html" title="几种主流的一致性协议!" /><published>2018-04-13T09:36:54+08:00</published><updated>2018-04-13T09:36:54+08:00</updated><id>http://localhost:4000/zookeeper/2018/04/13/Coherence-protocol</id><content type="html" xml:base="http://localhost:4000/zookeeper/2018/04/13/Coherence-protocol.html">&lt;blockquote&gt;
-  &lt;p&gt;待填坑&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;h1 id=&quot;paxos&quot;&gt;Paxos&lt;/h1&gt;
-
-&lt;h1 id=&quot;zoolab&quot;&gt;Zoolab&lt;/h1&gt;
-
-&lt;h1 id=&quot;gossip&quot;&gt;Gossip&lt;/h1&gt;
-
-&lt;h1 id=&quot;totem&quot;&gt;Totem&lt;/h1&gt;</content><author><name></name></author><summary type="html">待填坑</summary></entry></feed>
+&lt;h1 id=&quot;与titan如何整合&quot;&gt;与Titan如何整合&lt;/h1&gt;</content><author><name></name></author><summary type="html">待填坑</summary></entry></feed>
